@@ -86,7 +86,7 @@ Beside these standard methods, there are extension methods as shortcuts:
 
 ## ICurrentPrincipalAccessor
 
-`ICurrentPrincipalAccessor` is the service that should be used (by the ABP Framework and your application code) whenever the current principle of the current user is needed.
+`ICurrentPrincipalAccessor` is the service that should be used (by the ABP Framework and your application code) whenever the current principal of the current user is needed.
 
 For a web application, it gets the `User` property of the current `HttpContext`. For a non-web application, it returns the `Thread.CurrentPrincipal`.
 
